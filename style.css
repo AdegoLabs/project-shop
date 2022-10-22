@@ -3,6 +3,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    background: url('images/patt.png');
 }
 .container {
     max-width: 1200px;
@@ -29,4 +30,11 @@ body {
 .col-6 {
     flex: 0 0 50%;
     max-width: 50%;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(255,255,255, 0.75);
 }
