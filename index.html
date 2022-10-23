@@ -24,7 +24,14 @@
                     <nav>
                         <ul class="menu">
                             <li><a href="">Home</a></li>
-                            <li><a href="">Products</a></li>
+                            <li id="product-item"><a href="">Products</a>
+                                <ul class="products-menu">
+                                    <li><a href="">Telegram</a></li>
+                                    <li><a href="">Viber</a</li>
+                                    <li><a href="">Whatsapp</a></li>
+                                    <li><a href="">Facebook Messenger</a></li>
+                                </ul>
+                            </li>
                             <li><a href="">Payment</a></li>
                             <li><a href="">Shipping</a></li>
 
@@ -32,8 +39,20 @@
                     </nav>
                 </div>
                 <div class="col-3">
-                    <div class="search">
-                        <input type="text" placeholder="Search">
+                    <div class="row">
+                        <div class="col-9">
+                            <div class="search">
+                                <form method="get">
+                                    <input type="text" placeholder=" search" id="search-input"/>
+                                    <input type="button" id="search-btn" />
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="cart">
+                                <div class="items-count">4</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
